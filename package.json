@@ -1,0 +1,32 @@
+{
+    "app_name": "ProJectGame101",
+    "main": "menu.html",
+    "name": "projectgame101",
+    "webexe_settings": {
+        "blacklist": "",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "C:/Users/chayanan/Desktop/Project \u0e08\u0e1a",
+        "force_download": false,
+        "nw_compression_level": 0,
+        "nw_version": "0.78.1",
+        "output_pattern": "",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": "",
+        "windows-x32": true,
+        "windows-x64": true
+    },
+    "webkit": {},
+    "window": {
+        "exe_icon": "6.jpg",
+        "frame": false,
+        "fullscreen": true,
+        "id": "ProJectGame1001",
+        "resizable": true,
+        "show": true,
+        "show_in_taskbar": true,
+        "title": "ProJectGame1001",
+        "visible": false
+    }
+}

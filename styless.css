@@ -1,0 +1,99 @@
+/* แก้ไขขนาดฟ้อนต์เพื่อปรับขนาดของข้อความในหน้าเมนู */
+.menu-container h1 {
+  font-size: 55px;
+  color: #f0f0f0;
+  text-align: center; /* จัดกึ่งกลางตามแนวตั้ง */
+  position: absolute;
+  margin-bottom: 350px;
+  transform: translateY(-50%); /* ขยับขึ้นลงให้อยู่กึ่งกลางแนวตั้ง */
+  
+}
+
+.menu-container h2 {
+  font-size: 36px;
+  color: #f0f0f0;
+  text-align: center; /* จัดกึ่งกลางตามแนวตั้ง */
+  position: absolute;
+  margin-bottom: 200px;
+  transform: translateY(-50%); /* ขยับขึ้นลงให้อยู่กึ่งกลางแนวตั้ง */
+  
+}
+
+
+/* ปรับขนาดของปุ่ม Start Game */
+#QuestionGameButton {
+    font-size: 24px; 
+    padding: 10px 20px; 
+    margin-top: 140px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#FightingGameButton {
+    font-size: 24px; 
+    padding: 10px 20px; 
+    margin-top: 50px; /* กำหนดระยะห่างด้านบน */
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* กำหนดเอฟเฟคเมื่อเมาส์ hover ไปที่ปุ่ม */
+#QuestionGameButton:hover, #FightingGameButton:hover {
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY( -5px);
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+}
+
+/* ปรับขนาดของ Container หน้าเมนูเพื่อเท่ากับขนาดของ Canvas */
+.menu-container {
+    width: 1024px; /* ขนาดเท่ากับความกว้างของ canvas ในหน้าเกม */
+    height: 576px; /* ขนาดเท่ากับความสูงของ canvas ในหน้าเกม */
+    background-image: url('bg.png'); 
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .menu-container {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  
+  
